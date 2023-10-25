@@ -4,6 +4,7 @@ import Aos from 'aos'
 import { GrMenu } from "react-icons/gr";
 import 'aos/dist/aos.css';
 const Navbar = () => {
+  
 useEffect(()=>{
 
 Aos.init()

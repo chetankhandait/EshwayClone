@@ -26,9 +26,10 @@ Official Merchandise
             <p className='mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white'>
             Embrace the Digital Vibe! 🚀 Elevate your style with our exclusive Eshway official T-shirt. Showcasing a sleek design and unbeatable comfort, this limited edition tee stands out. Get yours now!
             </p>
-            <button className='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium d-block w-[100%] bg-[#323f5d] css-1hw9j7s'>Buy Now !</button>
+            <button className='  text-white w-[100%] px-2 rounded-lg
+            py-2 bg-[#323f5d] css-1hw9j7s'>Buy Now !</button>
         </div>
-        <div className='relative flex-1 flex justify-center items-center' >
+        <div className='relative flex-1 flex justify-center items-center' data-aos="fade-right" data-aos-duration='600'>
 
                 <img src="https://eshway.com/Front.webp" alt="" className='w-full lg:h-[610px] h-auto min-h-[210px] object-contain rounded-[40px]'/>
         </div>

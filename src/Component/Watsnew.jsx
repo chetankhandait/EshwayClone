@@ -1,13 +1,19 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Watsnew = () => {
+
+
+    useEffect(()=>{
+        Aos.init()
+    },[])
   return (  
 
  <div>
  <section className='sm:p-16 xs:p-8 px-6 py-12 relative z-10'>
 
 <div className='2xl:max-w-[1280px] w-full mx-auto flex lg:flex-row flex-col gap-8'>
-        <div className='flex-[0.95] flex justify-center flex-col'>
+        <div className='flex-[0.95] flex justify-center flex-col'data-aos='slide-up'data-aos-duration="1000">
 
             <p className='font-normal text-[14px] text-secondary-white undefined' >| Whats new?  </p>
             <h2 className='mt-[8px] font-bold md:text-[64px] text-[40px] text-white undefined'>What's new about Eshway?</h2>
@@ -33,7 +39,7 @@ const Watsnew = () => {
                 </div>
             </div>
             </div>
-            <div className='flex-1 flex justify-center items-center'>
+            <div className='flex-1 flex justify-center items-center'data-aos="flip-right" data-aos-duration="1000" data-aos-delay="20">
                 <img src="https://eshway.com/man.png" alt=""className='w-[90%] h-[90%] object-contain' />
             </div>
 

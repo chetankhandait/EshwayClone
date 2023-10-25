@@ -1,10 +1,14 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const GEtstarted = () => {
+  useEffect(()=>{
+    Aos.init();
+  },[])
   return (
     <div className='2xl:max-w-[1280px] w-full mx-auto flex lg:flex-row flex-col gap-8  my-[66px] '>
      <div className='flex-1 flex justify-center items-center'>
-      <img src="https://eshway.com/website.png" alt="" id='rotating-element' className='w-[90%] h-[90%] object-contain '/>
+      <img src="https://eshway.com/website.png" alt="" id='rotating-element' className='w-[90%] h-[90%] object-contain ' data-aos="fade-left"  data-aos-delay="700"/>
 
      </div>
      
